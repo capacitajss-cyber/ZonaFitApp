@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.List;
 import java.util.Scanner;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class ZonaFitApplication implements CommandLineRunner {
 
 	@Autowired
@@ -26,7 +26,7 @@ public class ZonaFitApplication implements CommandLineRunner {
 	public static void main(String[] args) {
 		logger.info("********** Inicio de app ********************");
 		SpringApplication.run(ZonaFitApplication.class, args);
-		logger.info("********** Fin de app !!!!! *****************");
+		logger.info("********** Fin de app !!!!! *****************"+System.lineSeparator());
 	}
 
 	@Override
